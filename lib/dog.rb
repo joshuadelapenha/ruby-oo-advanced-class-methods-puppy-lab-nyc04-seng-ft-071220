@@ -21,9 +21,8 @@ class Dog
     puts self.all.map(&:name)
   end
   
-  def self.save
-    new_dog = Dog.new
-    self.all << new_dog
+  def save
+    all << self
   end
   
 end 
