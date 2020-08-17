@@ -18,7 +18,7 @@ class Dog
   end 
   
   def self.print_all
-    puts @@all.map(&:name)
+    puts self.all.map(&:name)
   end
   
 end 
