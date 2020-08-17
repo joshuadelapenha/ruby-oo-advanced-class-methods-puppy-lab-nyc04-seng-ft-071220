@@ -21,4 +21,8 @@ class Dog
     puts self.all.map(&:name)
   end
   
+  def self.save
+    
+  end
+  
 end 
